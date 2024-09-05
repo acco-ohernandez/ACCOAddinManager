@@ -182,8 +182,24 @@ namespace ACCOAddinManager
                     sw.WriteLine("LocalAddinFile,LocalDllFile,ServerAddinFile,ServerDllFile");
                     sw.WriteLine(@"C:\ProgramData\Autodesk\Revit\Addins\ACCOAddinManager\SAMPLE_addin_FILE.addin, C:\ProgramData\Autodesk\Revit\Addins\ACCOAddinManager\SAMPLE_dll_File.dll, \\server\share\SAMPLE_addin_FILE.addin, \\server\share\SAMPLE_dll_File.dll");
                 }
+#if REVIT2025
+                using (Process process = new Process())
+                {
+                    process.StartInfo.UseShellExecute = true;
+                    process.StartInfo.FileName = ACCOAddinManagerCsv;
+                    process.Start();
+                }
+#else
+                Process.Start("notepad.exe", ACCOAddinManagerCsv);
+#endif
+
+
+
+
+
+
                 WriteLog("The ACCOAddinManager.csv file has been created.", LogLevel.Info);
-                TaskDialog.Show("ACCOAddinManager", "The ACCOAddinManager.csv file has been created. Please populate it with the addins you want to manage.");
+                TaskDialog.Show("ACCOAddinManager", $"The ACCOAddinManager.csv file has been created. Please populate it with the addins you want to manage.\n{ACCOAddinManagerCsv}");
             }
             catch (Exception ex)
             {
