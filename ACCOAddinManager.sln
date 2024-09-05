@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACCOAddinManager", "ACCOAddinManager\ACCOAddinManager.csproj", "{FF775464-CBCE-4B2A-B906-6330752751DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug-2020|Any CPU = Debug-2020|Any CPU
+		Debug-2021|Any CPU = Debug-2021|Any CPU
+		Debug-2022|Any CPU = Debug-2022|Any CPU
+		Debug-2023|Any CPU = Debug-2023|Any CPU
+		Debug-2024|Any CPU = Debug-2024|Any CPU
+		Debug-2025|Any CPU = Debug-2025|Any CPU
+		Release-2020|Any CPU = Release-2020|Any CPU
+		Release-2021|Any CPU = Release-2021|Any CPU
+		Release-2022|Any CPU = Release-2022|Any CPU
+		Release-2023|Any CPU = Release-2023|Any CPU
+		Release-2024|Any CPU = Release-2024|Any CPU
+		Release-2025|Any CPU = Release-2025|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2020|Any CPU.ActiveCfg = Debug-2020|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2020|Any CPU.Build.0 = Debug-2020|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2021|Any CPU.ActiveCfg = Debug-2021|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2021|Any CPU.Build.0 = Debug-2021|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2022|Any CPU.ActiveCfg = Debug-2022|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2022|Any CPU.Build.0 = Debug-2022|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2023|Any CPU.ActiveCfg = Debug-2023|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2023|Any CPU.Build.0 = Debug-2023|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2024|Any CPU.ActiveCfg = Debug-2024|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2024|Any CPU.Build.0 = Debug-2024|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2025|Any CPU.ActiveCfg = Debug-2025|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Debug-2025|Any CPU.Build.0 = Debug-2025|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2020|Any CPU.ActiveCfg = Release-2020|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2020|Any CPU.Build.0 = Release-2020|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2021|Any CPU.ActiveCfg = Release-2021|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2021|Any CPU.Build.0 = Release-2021|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2022|Any CPU.ActiveCfg = Release-2022|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2022|Any CPU.Build.0 = Release-2022|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2023|Any CPU.ActiveCfg = Release-2023|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2023|Any CPU.Build.0 = Release-2023|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2024|Any CPU.ActiveCfg = Release-2024|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2024|Any CPU.Build.0 = Release-2024|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2025|Any CPU.ActiveCfg = Release-2025|Any CPU
+		{FF775464-CBCE-4B2A-B906-6330752751DF}.Release-2025|Any CPU.Build.0 = Release-2025|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2428AE93-4677-4B60-B137-BA2DFE82AF2D}
+	EndGlobalSection
+EndGlobal

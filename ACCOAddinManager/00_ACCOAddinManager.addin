@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>ACCOAddinManager - Run</Text>
+    <Description>Some description</Description>
+    <Assembly>ACCOAddinManager\ACCOAddinManager.dll</Assembly>
+    <FullClassName>ACCOAddinManager.Cmd_Run_ACCOAddinManager</FullClassName>
+    <ClientId>59b641f6-24ad-4870-b3ab-12d23e9943e1</ClientId>
+    <VendorId>com.ACCO ENGINEERED SYSTEMS</VendorId>
+    <VendorDescription>ACCO ENGINEERED SYSTEMS, https://www.accoes.com/</VendorDescription>
+  </AddIn>
+  <!--<AddIn Type="Command">
+    <Text>ACCOAddinManager - Command 2</Text>
+    <Description>Some description</Description>
+    <Assembly>ACCOAddinManager\ACCOAddinManager.dll</Assembly>
+    <FullClassName>ACCOAddinManager.Command2</FullClassName>
+    <ClientId>514a7e8e-0d92-4e91-943b-6bde43892382</ClientId>
+    <VendorId>com.ACCO ENGINEERED SYSTEMS</VendorId>
+    <VendorDescription>ACCO ENGINEERED SYSTEMS, https://www.accoes.com/</VendorDescription>
+  </AddIn>-->
+  <AddIn Type="Application">
+    <Name>ACCOAddinManager</Name>
+    <Assembly>ACCOAddinManager\ACCOAddinManager.dll</Assembly>
+    <FullClassName>ACCOAddinManager.App</FullClassName>
+    <ClientId>71796b24-11cf-4cd0-b352-b4c7b82ad7d9</ClientId>
+    <VendorId>com.ACCO ENGINEERED SYSTEMS</VendorId>
+    <VendorDescription>ACCO ENGINEERED SYSTEMS, https://www.accoes.com/</VendorDescription>
+  </AddIn>
+</RevitAddIns>
