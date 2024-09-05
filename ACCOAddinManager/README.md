@@ -1,5 +1,4 @@
-﻿The App class in the ACCOAddinManager namespace is responsible for managing the startup process of the add-in. It implements the IExternalApplication interface, which is a Revit API interface that allows developers to extend the functionality of Autodesk Revit.
-Here is a breakdown of what the App class does:
+﻿Here is a breakdown of what the App class does:
 1.	OnStartup: This method is called when the add-in starts up. It performs the following tasks:
 •	Writes a log message to indicate the start of the add-in.
 •	Checks if the add-in manager has already run today by calling the CheckIfAddinManagerHasRunToday method.
