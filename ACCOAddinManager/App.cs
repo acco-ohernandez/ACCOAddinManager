@@ -179,7 +179,7 @@ namespace ACCOAddinManager
                 // Create the CSV file
                 using (StreamWriter sw = File.CreateText(ACCOAddinManagerCsv))
                 {
-                    sw.WriteLine("LocalAddinFile,LocalDllFile,ServerAddinFile,ServerDllFile");
+                    sw.WriteLine("LocalAddin_File,LocalDLL_File,Server_Addin_File,Server_DLL_File");
                     sw.WriteLine(@"C:\ProgramData\Autodesk\Revit\Addins\ACCOAddinManager\SAMPLE_addin_FILE.addin, C:\ProgramData\Autodesk\Revit\Addins\ACCOAddinManager\SAMPLE_dll_File.dll, \\server\share\SAMPLE_addin_FILE.addin, \\server\share\SAMPLE_dll_File.dll");
                 }
 #if REVIT2025
