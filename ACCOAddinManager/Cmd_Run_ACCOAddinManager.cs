@@ -20,18 +20,17 @@ namespace ACCOAddinManager
             // this is a variable for the current Revit model
             Document doc = uiapp.ActiveUIDocument.Document;
 
-            // Your code goes here
-            //TaskDialog.Show("ACCOAddinManager", $"Hello from {MethodBase.GetCurrentMethod().DeclaringType?.FullName}!");
-
-            //var flagFile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Temp", "ACCOAddinManager", "ACCOAddinManager.flag");
+            // User Profile Temp folder
             var Userprofile = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\AppData\Local\Temp";
             string nameSpace = this.GetType().Namespace;
-            //var flagDir = Path.Combine(Path.GetTempPath(), nameSpace);
+
+            // Flag file path
             var flagFile = Path.Combine(Userprofile, nameSpace, $"{nameSpace}.flag");
 
-
+            // Check if the flag file exists
             if (File.Exists(flagFile))
             {
+                // Delete the flag file to allow the ACCOAddinManager to run on next Revit startup
                 File.Delete(flagFile);
                 ACCOAddinManager.App app = new ACCOAddinManager.App();
                 app.WriteLog($"Flag file deleted on: {DateTime.Now:yyyy-MM-dd HH:mm:ss}, The ACCOAddinManager will run on next Revit startup.", App.LogLevel.Info);

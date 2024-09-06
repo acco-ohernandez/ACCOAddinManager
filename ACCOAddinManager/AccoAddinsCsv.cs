@@ -54,31 +54,5 @@ namespace ACCOAddinManager
 
             return addinFiles;
         }
-
-        //public static List<AccoAddinsCsv> ParseCsv(string csvFilePath)
-        //{
-        //    var addinFiles = new List<AccoAddinsCsv>();
-
-        //    var lines = File.ReadAllLines(csvFilePath);
-
-        //    // Skip the header line
-        //    foreach (var line in lines.Skip(1))
-        //    {
-        //        // Split the line into columns
-        //        var columns = line.Split(',');
-
-        //        // Remove any quotes around the file paths and trim any excess spaces
-        //        var localAddinFile = columns[0].Trim('"').Trim();
-        //        var localDllFile = columns[1].Trim('"').Trim();
-        //        var serverAddinFile = columns[2].Trim('"').Trim();
-        //        var serverDllFile = columns[3].Trim('"').Trim();
-
-        //        // Create a new AccoAddinsCsv object and add it to the list
-        //        var addinFileInfo = new AccoAddinsCsv(localAddinFile, localDllFile, serverAddinFile, serverDllFile);
-        //        addinFiles.Add(addinFileInfo);
-        //    }
-
-        //    return addinFiles;
-        //}
     }
 }
